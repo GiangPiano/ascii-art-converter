@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_app.dir/src/main.cpp.obj"
-  "CMakeFiles/my_app.dir/src/main.cpp.obj.d"
-  "CMakeFiles/my_app.dir/src/stb_image.cpp.obj"
-  "CMakeFiles/my_app.dir/src/stb_image.cpp.obj.d"
-  "libmy_app.dll.a"
-  "my_app.exe"
-  "my_app.exe.manifest"
+  "CMakeFiles/my_app.dir/src/main.cpp.o"
+  "CMakeFiles/my_app.dir/src/main.cpp.o.d"
+  "CMakeFiles/my_app.dir/src/stb_image.cpp.o"
+  "CMakeFiles/my_app.dir/src/stb_image.cpp.o.d"
+  "CMakeFiles/my_app.dir/src/stb_image_resize.cpp.o"
+  "CMakeFiles/my_app.dir/src/stb_image_resize.cpp.o.d"
+  "my_app"
   "my_app.pdb"
 )
 

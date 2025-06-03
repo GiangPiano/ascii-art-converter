@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\my_app.dir/objects.a
-D:\Program\msys64\ucrt64\bin\ar.exe qc CMakeFiles\my_app.dir/objects.a @CMakeFiles\my_app.dir\objects1.rsp
-D:\Program\msys64\ucrt64\bin\g++.exe -Wl,--whole-archive CMakeFiles\my_app.dir/objects.a -Wl,--no-whole-archive -o my_app.exe -Wl,--out-implib,libmy_app.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\my_app.dir\linkLibs.rsp
+/opt/homebrew/opt/llvm/bin/clang++  -stdlib=libc++ -I/opt/homebrew/opt/llvm/include/c++/v1 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib CMakeFiles/my_app.dir/src/main.cpp.o CMakeFiles/my_app.dir/src/stb_image.cpp.o CMakeFiles/my_app.dir/src/stb_image_resize.cpp.o -o my_app
